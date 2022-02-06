@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "antfu.vite",
+    "antfu.iconify",
+    "dbaeumer.vscode-eslint",
+    "bradlc.vscode-tailwindcss",
+    "csstools.postcss"
+  ]
+}
