@@ -15,7 +15,7 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "incremental": true,
+    "incremental": false,
     "noEmit": true,
     "noUnusedLocals": true,
     "jsx": "react-jsx",
