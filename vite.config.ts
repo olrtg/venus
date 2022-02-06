@@ -5,6 +5,7 @@ import react from '@vitejs/plugin-react'
 import Pages from 'vite-plugin-pages'
 import AutoImport from 'unplugin-auto-import/vite'
 import Icons from 'unplugin-icons/vite'
+import IconsResolver from 'unplugin-icons/resolver'
 
 export default defineConfig({
   resolve: {
@@ -21,6 +22,12 @@ export default defineConfig({
         'react-router-dom',
       ],
       dts: 'src/auto-imports.d.ts',
+      resolvers: [
+        IconsResolver({
+          prefix: 'Icon',
+          extension: 'jsx',
+        }),
+      ],
     }),
     Icons({ compiler: 'jsx', jsx: 'react', autoInstall: true }),
   ],
