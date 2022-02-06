@@ -22,6 +22,7 @@
     "types": [
       "vite/client",
       "vite-plugin-pages/client",
+      "unplugin-icons/types/react"
     ],
     "paths": {
       "~/*": ["src/*"]
