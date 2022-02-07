@@ -1,6 +1,5 @@
 {
-  "name": "venus",
-  "version": "0.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "lint": "eslint \"**/*.{ts,js,tsx,jsx}\"",
