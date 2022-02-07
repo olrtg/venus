@@ -2,9 +2,9 @@
   <img src="./../public/favicon.png" />
 </p>
 
-<h2 align="center">
+<h3 align="center">
   Venus
-</h2>
+</h3>
 
 <p align="center">
   Opinionated Vite starter template for modern React development.
@@ -24,11 +24,11 @@
 
 > Venus requires Node >= 14
 
-## Github template
+### Github template
 
 [Create a repo from this template](https://github.com/olrtg/venus/generate)
 
-## Clone to local
+### Clone to local
 
 If you rather prefer a clean git history
 
@@ -48,7 +48,7 @@ pnpm i
 
 # ⚙️ Usage
 
-## Development
+### Development
 
 Just run the commmand below and visit [localhost:3000](http://localhost:3000)
 
@@ -56,7 +56,7 @@ Just run the commmand below and visit [localhost:3000](http://localhost:3000)
 pnpm dev
 ```
 
-## Build
+### Build
 
 To build de App, run
 
