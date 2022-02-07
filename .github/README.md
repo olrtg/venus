@@ -10,6 +10,16 @@
   Opinionated Vite starter template for modern React development.
 </p>
 
+# 📦 Features
+
+- ⚡️ [React](https://reactjs.org/), [Vite](https://vitejs.dev/), [pnpm](https://pnpm.io/) - always fast
+- 🗂 [File based routing](https://github.com/hannoeru/vite-plugin-pages)
+- 📱 [PWA](https://github.com/antfu/vite-plugin-pwa)
+- 🎨 [Tailwind CSS](https://tailwindcss.com/)
+- 😄 [Use icons from any icon sets, zero compromises](https://github.com/antfu/unplugin-icons)
+- 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use `react`, `react-router-dom` and icons directly
+- 💪 [Typescript](https://www.typescriptlang.org/), of course
+
 # 🚀 Quick start
 
 > Venus requires Node >= 14
