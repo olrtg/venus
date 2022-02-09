@@ -17,6 +17,7 @@
 - 📱 [PWA](https://github.com/antfu/vite-plugin-pwa)
 - 🎨 [Tailwind CSS](https://tailwindcss.com/)
 - 😄 [Use icons from any icon sets, zero compromises](https://github.com/antfu/unplugin-icons)
+- 📄 [Markdown support](https://mdxjs.com/)
 - 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use `react`, `react-router-dom` and icons directly
 - 💪 [Typescript](https://www.typescriptlang.org/), of course
 
