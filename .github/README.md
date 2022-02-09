@@ -20,6 +20,7 @@
 - 📄 [Markdown support](https://mdxjs.com/)
 - 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use `react`, `react-router-dom` and icons directly
 - 💪 [Typescript](https://www.typescriptlang.org/), of course
+- ☁️ Deploy on Netlify, zero-config
 
 # 🚀 Quick start
 
@@ -66,6 +67,10 @@ pnpm build
 ```
 
 And you will see the generated files in `dist/` ready to be served.
+
+### Deploy on Netlify
+
+Go to [Netlify](https://app.netlify.com/start) and select your clone, `OK` along the way, and your App will be live in a minute.
 
 # 🙏 Credits
 
