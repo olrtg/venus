@@ -1,6 +1,8 @@
 {
   "extends": [
-    "@antfu",
-    "./.eslintrc-auto-import.json"
-  ]
+    "@antfu"
+  ],
+  "rules": {
+    "react/jsx-no-undef": "off"
+  }
 }
