@@ -7,21 +7,22 @@ import { VitePWA } from 'vite-plugin-pwa'
 import AutoImport from 'unplugin-auto-import/vite'
 import Icons from 'unplugin-icons/vite'
 import IconsResolver from 'unplugin-icons/resolver'
+import ComponentsResolver from './src/components'
 
 export default defineConfig(async () => {
   const mdx = await import('@mdx-js/rollup')
 
-  return { 
+  return {
     resolve: {
       alias: {
         '~/': `${path.resolve(__dirname, 'src')}/`,
-        'react/jsx-runtime': 'react/jsx-runtime.js'
+        'react/jsx-runtime': 'react/jsx-runtime.js',
       },
     },
     plugins: [
       react(),
       Pages({
-        extensions: ['tsx', 'mdx']
+        extensions: ['tsx', 'mdx'],
       }),
       mdx.default(),
       VitePWA({
@@ -52,16 +53,14 @@ export default defineConfig(async () => {
         },
       }),
       AutoImport({
-        imports: [
-          'react',
-          'react-router-dom',
-        ],
+        imports: ['react', 'react-router-dom'],
         dts: 'src/auto-imports.d.ts',
         resolvers: [
           IconsResolver({
             prefix: 'Icon',
             extension: 'jsx',
           }),
+          ComponentsResolver(),
         ],
       }),
       Icons({ compiler: 'jsx', jsx: 'react', autoInstall: true }),
