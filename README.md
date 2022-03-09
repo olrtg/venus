@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./../public/favicon.png" />
+  <img src="./public/favicon.png" />
 </p>
 
 <h3 align="center">
