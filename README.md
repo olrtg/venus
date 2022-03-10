@@ -20,7 +20,8 @@
 - 📄 [Markdown support](https://mdxjs.com/)
 - 📥 [APIs auto importing](https://github.com/antfu/unplugin-auto-import) - use `react`, `react-router-dom` and icons directly
 - 💪 [Typescript](https://www.typescriptlang.org/), of course
-- ☁️ Deploy on Netlify, zero-config
+- ☁️ Deploy on [Netlify](https://www.netlify.com/), zero-config
+- 🪆 [File nesting config for Visual Studio Code](https://github.com/antfu/vscode-file-nesting-config)
 
 # 🚀 Quick start
 
