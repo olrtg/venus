@@ -2,6 +2,8 @@ lockfileVersion: 5.3
 
 specifiers:
   '@antfu/eslint-config': ^0.16.1
+  '@iconify-json/fa': ^1.0.1
+  '@iconify-json/fa-solid': ^1.0.3
   '@iconify-json/twemoji': ^1.0.2
   '@mdx-js/rollup': ^2.0.0
   '@svgr/core': '5'
@@ -10,6 +12,7 @@ specifiers:
   '@types/node': ^17.0.15
   '@types/react': ^17.0.33
   '@types/react-dom': ^17.0.10
+  '@types/react-router-config': ^5.0.6
   '@types/tailwindcss': ^3.0.5
   '@vitejs/plugin-react': ^1.0.7
   autoprefixer: ^10.4.2
@@ -37,6 +40,8 @@ dependencies:
 
 devDependencies:
   '@antfu/eslint-config': 0.16.1_eslint@8.8.0+typescript@4.5.5
+  '@iconify-json/fa': 1.0.1
+  '@iconify-json/fa-solid': 1.0.3
   '@iconify-json/twemoji': 1.0.2
   '@mdx-js/rollup': 2.0.0
   '@svgr/core': 5.5.0
@@ -45,6 +50,7 @@ devDependencies:
   '@types/node': 17.0.15
   '@types/react': 17.0.39
   '@types/react-dom': 17.0.11
+  '@types/react-router-config': 5.0.6
   '@types/tailwindcss': 3.0.5
   '@vitejs/plugin-react': 1.1.4
   autoprefixer: 10.4.2_postcss@8.4.6
@@ -1398,6 +1404,18 @@ packages:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
     dev: true
 
+  /@iconify-json/fa-solid/1.0.3:
+    resolution: {integrity: sha512-bS9iiMP3yKVApgCbSG7AMrJ13vNq8kOjLxNUxuPonwcT4hEmJAgN1L5VUPfc8+gjlXMubm+x04H9WEU6OWMgwQ==}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
+
+  /@iconify-json/fa/1.0.1:
+    resolution: {integrity: sha512-GKi6TqDX/kA4K3A4ULm7Jg2t01Sg1WQ/pRfkJOgbCvQ96Ib+2GNA50ntd6MSdhYhUddy/GPEIMvsVgWTO7vR0w==}
+    dependencies:
+      '@iconify/types': 1.0.12
+    dev: true
+
   /@iconify-json/twemoji/1.0.2:
     resolution: {integrity: sha512-kr1WiObcPMU4bJDLVH8x0tk5WaP95QFVsVIdNUMpbzYgx5vBa8lx9LKhOv+D6y+Co+bCAIP9N97ObaRM1fe4Kg==}
     dependencies:
@@ -1692,6 +1710,10 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
+  /@types/history/4.7.11:
+    resolution: {integrity: sha512-qjDJRrmvBMiTx+jyLxvLfJU7UznFuokDv4f3WRuriHKERccVpFU+8XMQUAbDzoiJCsmexxRExQeMwwCdamSKDA==}
+    dev: true
+
   /@types/json-schema/7.0.9:
     resolution: {integrity: sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==}
     dev: true
@@ -1737,6 +1759,21 @@ packages:
   /@types/react-dom/17.0.11:
     resolution: {integrity: sha512-f96K3k+24RaLGVu/Y2Ng3e1EbZ8/cVJvypZWd7cy0ofCBaf2lcM46xNhycMZ2xGwbBjRql7hOlZ+e2WlJ5MH3Q==}
     dependencies:
+      '@types/react': 17.0.39
+    dev: true
+
+  /@types/react-router-config/5.0.6:
+    resolution: {integrity: sha512-db1mx37a1EJDf1XeX8jJN7R3PZABmJQXR8r28yUjVMFSjkmnQo6X6pOEEmNl+Tp2gYQOGPdYbFIipBtdElZ3Yg==}
+    dependencies:
+      '@types/history': 4.7.11
+      '@types/react': 17.0.39
+      '@types/react-router': 5.1.18
+    dev: true
+
+  /@types/react-router/5.1.18:
+    resolution: {integrity: sha512-YYknwy0D0iOwKQgz9v8nOzt2J6l4gouBmDnWqUUznltOTaon+r8US8ky8HvN0tXvc38U9m6z/t2RsVsnd1zM0g==}
+    dependencies:
+      '@types/history': 4.7.11
       '@types/react': 17.0.39
     dev: true
 
